@@ -35,8 +35,8 @@ stopping_rule = None
 study = sherpa.Study(parameters=parameters,
                      algorithm=algorithm,
                      stopping_rule=stopping_rule,
-                     lower_is_better=True,
-                     dashboard_port=8999)
+                     lower_is_better=True,disable_dashboard=True)
+                     #dashboard_port=8999)
 
 num_iterations = 10
 
