@@ -17,6 +17,7 @@ jobs:
 
 install:
   - pip3 install .
+  - pip3 install numpy==1.21
 script:
 #  - pytest tests/*
   - python3 examples/simple.py || python examples/simple.py 
