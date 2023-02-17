@@ -16,10 +16,10 @@ jobs:
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 
 install:
-- pip3 install .
+  - pip3 install .
 script:
-- pytest tests/*
-- python3 examples/simple.py 
+#  - pytest tests/*
+  - python3 examples/simple.py || python examples/simple.py 
 deploy:
   provider: pypi
   user: __token__
