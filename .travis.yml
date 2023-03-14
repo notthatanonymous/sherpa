@@ -3,9 +3,6 @@ jobs:
   include:
     - name: "Python 3.7.0 on Xenial Linux"
       python: 3.7           # this works for Linux but is ignored on macOS or Windows
-      arch: arm64
-    - name: "Python 3.7.0 on Xenial Linux"
-      python: 3.7           # this works for Linux but is ignored on macOS or Windows
       arch: amd64
     - name: "Python 3.7.4 on macOS"
       os: osx
