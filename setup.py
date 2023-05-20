@@ -97,7 +97,7 @@ setup(
     author_email=EMAIL,
     url=URL,
     packages=find_packages(),
-    install_requires=REQUIRED,
+    #install_requires=REQUIRED,
     include_package_data=True,
     license='GPLv3',
     classifiers=[
