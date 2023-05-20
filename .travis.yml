@@ -52,7 +52,7 @@ jobs:
       env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
 install:
   - pip3 install .
-  - pip3 install numpy==1.20.3
+  - pip3 install numpy # ==1.20.3
 script:
 #  - pytest tests/*
   - python3 examples/simple.py || python examples/simple.py 
