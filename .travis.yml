@@ -54,8 +54,7 @@ install:
   - pip3 install -r requirements.txt
   - pip3 install .
 script:
-#  - pytest tests/*
-  - python3 examples/randomforest.py || python examples/randomforest.py
+  - python3 examples/simple.py || python examples/simple.py
 
 after_success:
   - echo "Successfull."
