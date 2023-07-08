@@ -67,3 +67,4 @@ for trial in study:
                        status='COMPLETED')
 
 print(study.get_best_result())
+print(f"\n\n\nScore: {study.get_best_result()['pseudo_acc']}\n\n\n")
